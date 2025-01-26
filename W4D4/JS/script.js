@@ -168,3 +168,25 @@ document.getElementById('search-button').addEventListener('click',function() {
 })
 
 
+
+// EXTRA 
+let titleJob = document.getElementById('title-job');
+let locationJob = document.getElementById('location-job');
+let searchResult = titleJob + locationJob;
+let searchBtn = document.getElementById('search-button');
+
+searchResult.addEventListener("keydown", function(event){
+  if (event.key === 'Enter'){
+    event.preventDefault();
+
+    searchBtn.click()
+  }
+})
+
+searchBtn.addEventListener("click", function() {
+  alert("Cercando: " + searchResult.value)
+})
+
+
+
+
