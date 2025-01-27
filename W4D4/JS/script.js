@@ -169,7 +169,7 @@ document.getElementById('search-button').addEventListener('click',function() {
 
 
 
-// EXTRA 
+// EXTRA PROVA PER COLLEGARE COLLEGAMNETO TASTIERA
 let titleJob = document.getElementById('title-job');
 let locationJob = document.getElementById('location-job');
 let searchResult = titleJob + locationJob;
